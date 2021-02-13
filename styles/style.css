@@ -32,7 +32,7 @@ time, mark, audio, video {
 
 html {
   font-family: "Lato", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   font-weight: 300;
   box-sizing: border-box;
   color: #1A1A1A;
@@ -55,12 +55,12 @@ html {
 #navbar ul {
   float: right;
   list-style: none;
-  margin: 0.5rem;
+  margin: 0.5em;
 }
 
 #navbar li {
   float: left;
-  margin: 1rem 0.5rem;
+  margin: 1em 0.5em;
 }
 
 #showcase {
@@ -77,22 +77,17 @@ html {
   justify-content: center;
   align-items: center;
   height: 100%;
-  position: absolute;
-  top: 150px;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 #showcase p {
-  font-size: 1.3rem;
-  line-height: 1.7rem;
+  font-size: 1.3em;
+  line-height: 1.7em;
 }
 
 .container  {
@@ -105,7 +100,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.7em;
   font-weight: 700;
   margin-top: 30px;
   padding: 5px;
@@ -140,14 +135,14 @@ h2 {
 
 .item h3 {
   color: #00B172;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-weight: 700;
   margin: 20px auto;
 }
 
 .item p {
   padding: 10px 80px;
-  line-height: 1.3rem ;
+  line-height: 1.3em ;
 }
 
 .clr {
@@ -157,18 +152,20 @@ h2 {
 #kanye {
   background: #00B172;
   color: #fff;
-  display: flex;
+  /* display: flex; */
   height: 750px;
   position: relative;
 }
 
 #kanye-text-container {
   margin: 30px 0 0 80px;
-  flex: 1;
+  /* flex: 1; */
+  float: left;
+  width: 50%;
 }
 
 #kanye h3 {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-weight: 700;
   margin: 30px 0;
 }
@@ -182,7 +179,7 @@ h2 {
 }
 
 #kanye p {
-  line-height: 1.4rem;
+  line-height: 1.4em;
 }
 
 #kanye-logo-container {
@@ -196,12 +193,11 @@ h2 {
 
 #kanye-img-container {
   margin-top: 100px;
-  text-align: right;
-  flex: 1;
+  float: right;
+  width: 40%;
 }
 
 #kanye-img-container img{
-  width: 57%;
-  margin-right: 100px;
+  width: 70%;
   margin-top: 10px;
 }
