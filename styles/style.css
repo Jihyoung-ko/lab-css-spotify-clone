@@ -6,3 +6,202 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  box-sizing: border-box;
+  color: #1A1A1A;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#navbar {
+  overflow: auto;
+}
+
+#navbar img {
+  float: left;
+  width: 200px;
+  padding: 15px 30px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+  margin: 0.5rem;
+}
+
+#navbar li {
+  float: left;
+  margin: 1rem 0.5rem;
+}
+
+#showcase {
+  background: url(/images/landing.jpg) no-repeat center center/cover;
+  height: 800px;
+  width: 100%;
+  color: #fff;
+}
+
+#showcase-contents {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+#showcase p {
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+}
+
+.container  {
+  margin: 40px;
+  overflow: hidden;
+}
+
+#whats-on {
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+#green-line {
+  width: 300px;
+  height: 4px;
+  background: #00B172;
+  margin: 0 auto;
+}
+
+#items {
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.item {
+  float: left;
+  width: 33.33%;
+}
+
+.item-img-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item h3 {
+  color: #00B172;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 20px auto;
+}
+
+.item p {
+  padding: 10px 80px;
+  line-height: 1.3rem ;
+}
+
+.clr {
+  clear: both;
+}
+
+#kanye {
+  background: #00B172;
+  color: #fff;
+  display: flex;
+  height: 750px;
+  position: relative;
+}
+
+#kanye-text-container {
+  margin: 30px 0 0 80px;
+  flex: 1;
+}
+
+#kanye h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+#white-line {
+  background: #fff;
+  height: 4px;
+  width: 466px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+
+#kanye p {
+  line-height: 1.4rem;
+}
+
+#kanye-logo-container {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+#kanye-logo {
+  width: 120px;
+}
+
+#kanye-img-container {
+  margin-top: 100px;
+  text-align: right;
+  flex: 1;
+}
+
+#kanye-img-container img{
+  width: 57%;
+  margin-right: 100px;
+  margin-top: 10px;
+}
